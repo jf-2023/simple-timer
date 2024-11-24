@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Boxing Timer</title>
+
+    <link rel="stylesheet" href="styles/styles.css" />
+  </head>
+  <body>
+    <main>
+      <div class="timeWrapper">
+        <span id="hour">00</span>
+        :
+        <span id="minute">00</span>
+        :
+        <span id="second">00</span>
+      </div>
+    </main>
+    <div class="settingsWrapper">
+      <div class="settingsControl">
+        <div class="timeInfo">
+          <span class="timeSet" id="roundLength">00:00</span>
+          <p class="timeSetLabel">ROUND LENGTH</p>
+        </div>
+        <div class="changeTimeButtonWrapper">
+          <button class="lessTime">-</button>
+          <button class="addTime">+</button>
+        </div>
+      </div>
+      <div class="settingsControl">
+        <div class="timeInfo">
+          <span class="timeSet" id="restTime">00:00</span>
+          <p class="timeSetLabel">REST TIME</p>
+        </div>
+        <div class="changeTimeButtonWrapper">
+          <button class="lessTime">-</button>
+          <button class="addTime">+</button>
+        </div>
+      </div>
+      <div class="settingsControl">
+        <div class="timeInfo">
+          <span class="timeSet" id="numRounds">0</span>
+          <p class="timeSetLabel">ROUNDS</p>
+        </div>
+        <div class="changeTimeButtonWrapper">
+          <button class="lessTime" id="less">-</button>
+          <button class="addTime" id="add">+</button>
+        </div>
+      </div>
+    </div>
+    <button id="togglePlay">QUACK</button>
+    <script src="scripts/notebook.js"></script>
+  </body>
+</html>

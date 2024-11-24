@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: content-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: black;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 7px solid gray;
+  background-color: #1e1e1e;
+  color: red;
+  width: 500px;
+  height: 150px;
+}
+
+.timeWrapper {
+  font-size: 100px;
+}
+
+span {
+  width: 50px;
+  text-align: center;
+  vertical-align: middle;
+  font-weight: 900;
+  color: red;
+}
+
+#togglePlay {
+  font-weight: 900;
+  padding: 15px;
+  border-radius: 50px;
+  font-size: larger;
+}
+
+.start {
+  background-color: red;
+
+  border: 2px solid red;
+  color: white;
+}
+
+.pause {
+  background-color: transparent;
+  border: 2px solid red;
+  color: red;
+}
+
+.settingsWrapper {
+  color: white;
+  margin: 50px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.settingsControl {
+  width: 300px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px;
+}
+
+.timeSet {
+  font-size: 40px;
+  color: darkred;
+  opacity: 90%;
+}
+
+.timeInfo {
+  text-align: left;
+}
+
+.changeTimeButtonWrapper > button {
+  background-color: transparent;
+  color: darkred;
+  font-weight: 700;
+  font-size: 36px;
+  padding: 5px;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+}
