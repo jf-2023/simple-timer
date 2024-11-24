@@ -24,18 +24,20 @@
           <p class="timeSetLabel">ROUND LENGTH</p>
         </div>
         <div class="changeTimeButtonWrapper">
-          <button class="lessTime">-</button>
-          <button class="addTime">+</button>
+          <button class="lessRestBtn">-</button>
+          <button class="addRestBtn">+</button>
         </div>
       </div>
       <div class="settingsControl">
         <div class="timeInfo">
-          <span class="timeSet" id="restTime">00:00</span>
+          <span class="timeSet" id="restTimeMin">00</span>
+          <span class="timeSet">:</span>
+          <span class="timeSet" id="restTimeSec">00</span>
           <p class="timeSetLabel">REST TIME</p>
         </div>
         <div class="changeTimeButtonWrapper">
-          <button class="lessTime">-</button>
-          <button class="addTime">+</button>
+          <button class="lessTime" id="lessRestBtn">-</button>
+          <button class="addTime" id="addRestBtn">+</button>
         </div>
       </div>
       <div class="settingsControl">
@@ -50,6 +52,6 @@
       </div>
     </div>
     <button id="togglePlay">QUACK</button>
-    <script src="scripts/notebook.js"></script>
+    <script src="scripts/restTime.js"></script>
   </body>
 </html>
